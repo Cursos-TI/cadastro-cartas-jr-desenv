@@ -27,6 +27,37 @@ int main() {
 
   // Área para entrada de dados
 
+  // Exibindo instruções iniciais do jogo
+  printf("== SUPER TRUNFO - CADASTRO DE CARTAS ==\n\n");
+  
+  // Leitura dos dados da Carta 1
+  printf("-- CADASTRO DA CARTA 1 -- \n");
+
+  printf("Digite o estado (A-H): ");
+  scanf(" %c", &estado1);
+
+  printf("Digite o codigo da carta (ex: A01): ");
+  scanf("%s", &codigo1);
+
+  printf("Digite o nome da cidade: ");
+  scanf(" %[^\n]", cidade1);  // Lê string com espaços
+
+  printf("Digite a população: ");
+  scanf("%d", &populacao1);
+
+  printf("Digite a area (Km2): ");
+  scanf("%f", &area1);
+  
+  printf("Digite o PIB (bilhoes de reais): ");
+  scanf("%f", &pib1);
+
+  printf("Digite o numero de pontos turisticos: ");
+  scanf("%f", &pontos_turisticos1);
+
+  printf("\n");
+
+
+
   // Área para exibição dos dados da cidade
 
 return 0;
